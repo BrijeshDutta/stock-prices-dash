@@ -41,6 +41,7 @@ import datetime
 
 
 app = dash.Dash()
+server = app.server
 
 # Basic Bar chat in Dash
 # app.layout = html.Div(
